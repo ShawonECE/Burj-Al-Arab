@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
-import firebaseConfig from './fireConfig';
+import firebaseConfig from '../../fireConfig';
 import { useState } from 'react';
 import { UserContext } from '../../App';
 import { useLocation, useNavigate } from 'react-router-dom';
